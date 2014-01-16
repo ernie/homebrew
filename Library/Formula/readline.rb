@@ -286,8 +286,8 @@ index 4408053..fc0bb98 100644
  
  static int vidomove_dispatch PARAMS((_rl_vimotion_cxt *));
  
-+#define _RL_PROMPT_INITIAL_SIZE 256
-+#define _VI_MODE_PROMPT_FORMAT_SIZE 256
++#define _RL_PROMPT_INITIAL_SIZE 512
++#define _VI_MODE_PROMPT_FORMAT_SIZE 512
 +#define _VI_MODE_PROMPT_SIZE _RL_PROMPT_INITIAL_SIZE + _VI_MODE_PROMPT_FORMAT_SIZE
 +static char _rl_prompt_initial[_RL_PROMPT_INITIAL_SIZE] = "\0";
 +static char *_rl_prompt_initial_last_line;
